@@ -1,0 +1,60 @@
+
+<div fxLayout="row">
+    <div class="outline-container">
+      <h1>outline ... !</h1>
+      <hr>
+      <div class="outline-container-selection">
+        <mat-selection-list>
+          <mat-list-option *ngFor="let note of outlines">
+            <span style="font-size: larger">{{note}}</span> <mat-divider></mat-divider>
+          </mat-list-option>
+            
+        </mat-selection-list>
+    
+      </div>
+    </div>
+
+
+    <div *ngIf="false"
+         class="gifImage">
+      <img src="https://media1.giphy.com/media/OF0yOAufcWLfi/200.gif"
+        alt=""
+        style="width: 550px; height: 488px">
+    </div>
+
+
+    <div *ngIf="true"
+         class="sectionKeys">
+      <h2>Installation ...</h2>
+      <mat-list style="width: 550px; background-color:#6ec0fd">
+        <mat-list-item style="cursor: pointer"><span style="font-size: larger"> ng add @angular/material</span></mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item style="cursor: pointer"><span style="font-size: larger">npm install @angular/flex-layout@latest --save</span></mat-list-item>
+        <mat-divider></mat-divider>       
+      </mat-list>
+      <br>
+      <hr>
+      <h2>Components generation ...</h2>
+      <mat-list style="width: 550px; background-color: #82fde7">
+        <mat-list-item style="cursor: pointer"><span style="font-size: larger">ng generate @angular/material:material-nav --name myNav</span></mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item style="cursor: pointer"><span style="font-size: larger">ng g c home</span></mat-list-item>
+        <mat-divider></mat-divider>   
+        <mat-list-item style="cursor: pointer"><span style="font-size: larger">ng g front</span></mat-list-item>
+        <mat-divider></mat-divider>       
+      </mat-list>
+
+      <br>
+      <hr>
+      <h2>key words ...</h2>
+      <mat-list style="width: 550px; background-color: #ffd27d">
+        <mat-list-item style="cursor: pointer"><span style="font-size: larger">routerLink - routerLinkActive</span></mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item style="cursor: pointer"><span style="font-size: larger">ActivatedRoute - route.snapshot.params</span></mat-list-item>
+        <mat-divider></mat-divider>   
+        <mat-list-item style="cursor: pointer"><span style="font-size: larger">route.params.subscribe</span></mat-list-item>
+        <mat-divider></mat-divider>       
+      </mat-list>
+    </div>
+
+</div>

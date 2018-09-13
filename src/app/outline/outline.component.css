@@ -1,0 +1,20 @@
+.outline-container {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.outline-container-selection {
+    width: 800px;
+    float: center;
+    background-color: #67c9dab0;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gifImage {
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+.sectionKeys {
+    margin-top: 60px;
+    margin-left: 20px;
+}
