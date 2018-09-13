@@ -1,0 +1,8 @@
+.list-content {
+    width: 500px;
+    background-color: rgb(158, 224, 224);
+    margin: 20px;
+}
+.pointer {
+    cursor: pointer;
+}
