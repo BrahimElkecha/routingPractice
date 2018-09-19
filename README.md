@@ -41,7 +41,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 >*Children* params
 
->Don't forget to add <router-outler> to your component.html
+>Don't forget to add ( router-outlet ) to your component.html
 
 
 ## Development server
