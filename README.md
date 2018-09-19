@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > add your routes to the *RouterModule* : imports: [ RouterModule.forRoot(appRoutes) ... ] using the *forRoot* function
 
-> use *<router-outlet></router-outlet>* to load the content in.
+> use * (router-outlet )* to load the content in.
 
 ## ======= `TEMPLATE NAVIGATION :`  ============
 
