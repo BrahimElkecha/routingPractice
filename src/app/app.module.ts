@@ -19,13 +19,21 @@ import { DevFrontComponent } from './front/dev-front/dev-front.component';
 
 
 import {MatCardModule} from '@angular/material/card';
+import { DevBackComponent } from './back/dev-back/dev-back.component';
+import { EditDevBackComponent } from './back/edit-dev-back/edit-dev-back.component';
 
 const appRoutes: Routes = [
   { path: 'outline', component: OutlineComponent },
   { path: '', component: HomeComponent },
   { path: 'front', component: FrontComponent },
   { path: 'front/:id', component: DevFrontComponent },
-  { path: 'back', component: BackComponent }
+
+  { path: 'back', component: BackComponent,
+    children: [
+      { path: ':id/edit', component: EditDevBackComponent },
+      { path: ':id', component: DevBackComponent },
+    ]
+  }
 ];
 
 @NgModule({
@@ -36,7 +44,9 @@ const appRoutes: Routes = [
     BackComponent,
     HomeComponent,
     MyNavComponent,
-    DevFrontComponent
+    DevFrontComponent,
+    DevBackComponent,
+    EditDevBackComponent
   ],
   imports: [
     BrowserModule,

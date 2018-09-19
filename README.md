@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
-## ======= `CONFIG AN QUICk START`  :  ===========
+## ======= `CONFIG AND QUICK START`  :  ===========
 
 > import { *RouterModule*, *Routes* } from '@angular/router';
 >  const appRoutes: Routes = [{ path: 'home', component: HomeComponent }  ....]
@@ -22,6 +22,27 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 >*Router navigate(['/path']) function*
 > By default there is no problem  with relative and absolute path here, bath we can use *relativeTo* parameter that takes *activatedRoute* as a value ...
 >*route Snapshot* route.snapchot.params['id'] to fetch url id params
+
+## ======`QUERY PARAMS AND FRAGMENT`  =======
+
+>Query parameters in Angular allow for passing optional parameters across any route in the application. Query params are different from regular route parameters, which are only available on one route and are not optional
+
+>NavigationExtras
+
+>*QueryParams*
+
+>Fragment
+
+>To get the route queryParams use activatedRoute.queryParams snapshot or observable if we want to be reactive ...
+
+## ======`NESTED ROUTES (child)`  =======
+
+>Child Routes or Nested routes are a powerful new feature in the Angular router. Nested routes are routes within other routes ...
+
+>*Children* params
+
+>Don't forget to add <router-outler> to your component.html
+
 
 ## Development server
 
